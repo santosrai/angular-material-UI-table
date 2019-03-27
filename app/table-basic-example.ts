@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import DataJson from '../Data.json';
 
 export interface PeriodicElement {
   name: string;
@@ -30,7 +31,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class TableBasicExample {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = ELEMENT_DATA;
+  dataSource = DataJson;
 }
 
 

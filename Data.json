@@ -1,0 +1,55 @@
+{
+ "Body_Size_Measurements":[
+    {"Right_Arm":{ 
+        "wrist_circ": 10,
+        "forearm_circ": 10,
+        "bicep_circ": 11,
+        "volume": 11,
+        "length": 12}
+    },
+     
+    {"Left_Arm":{
+        "wrist_circ": 10,
+        "forearm_circ." : 10,
+        "bicep_circ": 11,
+        "volume": 11,
+        "length": 12}
+    },
+
+    {"Right_Leg":{
+        "ankle_circ": 20,
+        "calf_circ" : 30,
+        "knee_circ": 20,
+        "thigh_circ": 40,
+        "volume": 30,
+        "length": 40}
+    },
+
+    {"left_Leg":{
+        "ankle_circ": 20,
+        "calf_circ" : 30,
+        "knee_circ": 20,
+        "thigh_circ": 40,
+        "volume": 30,
+        "length": 40}
+    },
+
+    {"Trunk":{
+        "Chest_circ" : 30,
+        "waist_circ.": 32,
+        "hip_circ." : 30,
+        "volume" : 30}
+    }
+ ],
+ "Biometric_Data":[
+      { "name": "Glucose Level", "value": 100 },
+      { "name": "HDL Cholesterol", "value": 100 },
+      { "name": "LDL Cholesterol", "value": 200 },
+      { "name": "Total Cholesterol", "value": 300 },
+      { "name": "Blood Pressure", "value": 200 }],
+ "Body_Composition":[
+      { "name": "Fat Mass", "value": 20 },
+      { "name": "Lean Mass", "value": 40 },
+      { "name": "Bone Mineral Density", "value": 80 }
+     ]
+}
