@@ -8,6 +8,30 @@ export interface PeriodicElement {
   symbol: string;
 }
 
+export interface jsonData {
+  Body_Size_Measurements: {
+        Right_Arm: {
+          wrist_circ:number;
+          forearm_circ:number;
+          bicep_circ: number,
+          volume: number,
+          length: number},
+      
+        Left_Arm: {
+          wrist_circ:number;
+          forearm_circ:number;
+          bicep_circ: number,
+          volume: number,
+          length: number}
+        },
+    Biometric_Data :{
+          name: String,
+          value:number
+    }    
+    };
+    
+
+
 const ELEMENT_DATA: PeriodicElement[] = [
   {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
   {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
