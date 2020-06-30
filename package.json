@@ -16,7 +16,7 @@
     "@angular/router": "7.2.11",
     "@angular/compiler": "7.2.11",
     "@angular/material": "7.3.6",
-    "web-animations-js": "2.3.1",
+    "web-animations-js": "2.3.2",
     "@angular/animations": "7.2.11",
     "@angular/platform-browser": "7.2.11",
     "angular-in-memory-web-api": "0.5.4",
